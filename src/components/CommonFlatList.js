@@ -16,7 +16,6 @@ const CommonFlatList = React.memo(function ({
           height: imageHeight ? imageHeight : 100,
           width: imageWidth ? imageWidth : 100,
           margin: 5,
-
         }}>
         <Image
           source={{uri: item.item.picUrl}}
